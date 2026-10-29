@@ -27,7 +27,7 @@ const (
 	// controlListURL is the published stop list. Editing this file on the
 	// default branch is what "remote stop" means; the client re-reads it at
 	// startup and every controlCheckEvery while it runs.
-	controlListURL    = "https://raw.githubusercontent.com/hezhanleiok/xehn/main/control.json"
+	controlListURL    = "https://raw.githubusercontent.com/wenping050/WVPN/main/control.json"
 	controlStateName  = "control-state.json"
 	controlTimeout    = 8 * time.Second
 	controlCheckEvery = 15 * time.Minute
